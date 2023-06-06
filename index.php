@@ -55,9 +55,9 @@
         $response = file_get_contents($url);
         $response = json_decode($response);
 
-        if($response->success){ ?>
-            <script>alert("Message sent!")</script>;
-       <?php } else{
+        if($response->success){ 
+           echo "<script>alert('Message sent!')</script>";
+        } else{
             echo "<script>alert('Invalid recaptcha')</script>";
         }
     }
