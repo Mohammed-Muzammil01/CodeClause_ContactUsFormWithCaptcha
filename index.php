@@ -38,7 +38,7 @@
 
     <?php 
     if(isset($_POST['submit'])){
-        $secretKey = "6LcBcnQmAAAAAJsgm0MkaWUqiuyKl7jgnweXDkyl";
+        $secretKey = //your secret key;
         $responseKey = $_POST['g-recaptcha-response'];
         $UserIP = '';
 
